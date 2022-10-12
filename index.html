@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/index.css">
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<title>Touch Numbers</title>
+</head>
+<body onload="onInit()">
+    <h1>Touch Numbers 🔢</h1>
+    <span class="sec-span">00:00</span><span class="ms-span"></span>
+    <div class="container" >
+       <table class="board">
+       </table>
+       <h2>choose level:</h2>
+       <button onclick="lvlPressed(this)">easy👍</button>
+       <button onclick="lvlPressed(this)">hard🤞</button>
+       <button onclick="lvlPressed(this)">extreme👾</button><br>
+       <button class="play-again" onclick="playAgain()">Play again🔄</button>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
